@@ -1,6 +1,5 @@
 "use client";
 
-import logo from '@/assets/images/text-logo.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
@@ -31,7 +30,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <Link href="/">
             <Image 
-              src={logo}
+              src="/images/logo.png"
               alt="Entrepreneur Portfolio Logo" 
               width={150} 
               height={50} 
